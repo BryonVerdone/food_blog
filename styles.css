@@ -2,3 +2,98 @@
   margin: 0;
   box-sizing: border-box;
 }
+a {
+  text-decoration: none;
+}
+/* 
+==========
+Side bar
+==========
+*/
+.sidebar {
+  display: block;
+  z-index: 2;
+  width: 40%;
+  height: 100%;
+  font-size: 2rem;
+  background: white;
+  position: fixed;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+.hide-sidebar {
+  display: none;
+}
+.bar-item {
+  width: 100%;
+  display: block;
+  text-align: left;
+  padding: 1.75rem;
+  color: black;
+}
+.bar-item:hover {
+  background: grey;
+}
+/* 
+==========
+Top menu 
+==========
+*/
+.top-menu {
+  z-index: 1;
+  position: sticky;
+}
+.top-wrapper {
+  max-width: 1200px;
+  margin: auto;
+}
+.menu-left {
+  float: left;
+}
+.menu-right {
+  float: right;
+}
+.menu-center {
+  text-align: center;
+}
+.menu-item {
+  padding: 1rem;
+  font-size: 2rem;
+}
+/* 
+==========
+photo grid
+==========
+*/
+.photo-grid-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: 1fr 1fr;
+}
+.card-img {
+  width: 100%;
+  object-fit: cover;
+}
+.card-heading {
+  text-align: center;
+}
+.card-text {
+  text-align: center;
+}
+/* 
+==========
+Pagination 
+==========
+*/
+
+/* 
+==========
+about section
+==========
+*/
+
+/* 
+==========
+Footer
+==========
+*/
