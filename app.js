@@ -10,6 +10,10 @@ navBtn.addEventListener('click', function () {
 // close open sidebar
 const closeNav = document.querySelector('.close-nav');
 
+
+
+if(closeNav.classList.contains)
+
 closeNav.addEventListener('click', function () {
   closeNav.classList.add('hide-sidebar');
 });
