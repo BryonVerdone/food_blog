@@ -83,6 +83,16 @@ photo grid
   grid-template-rows: 1fr 1fr;
   gap: 1rem;
 }
+@media (max-width: 980px) {
+  .photo-grid-container {
+    grid-template-columns: repeat(2, 50%);
+  }
+}
+@media (max-width: 600px) {
+  .photo-grid-container {
+    grid-template-columns: 100%;
+  }
+}
 .card-img {
   width: 100%;
   /* width: 207.734px;
@@ -133,8 +143,19 @@ about section
   width: 100%;
   object-fit: cover;
 }
+.about-text {
+  margin: auto;
+  max-width: 500px;
+  display: block;
+  text-align: center;
+}
 /* 
 ==========
 Footer
 ==========
 */
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+}
