@@ -4,8 +4,166 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-5.12.1-web/css/all.min.css"
+    />
     <link rel="stylesheet" href="./styles.css" />
     <title>Food Blog</title>
   </head>
-  <body></body>
+  <body>
+    <!-- sidebar (hidden by default) -->
+    <nav class="sidebar hide-sidebar">
+      <a class="bar-item close-nav" href="">Close Menu</a>
+      <a class="bar-item" href="#food">Food</a>
+      <a class="bar-item" href="#about">About</a>
+    </nav>
+    <!-- menu -->
+    <div class="top-menu">
+      <div class="top-wrapper">
+        <div class="menu-left menu-item">
+          <i class="fas fa-bars nav-btn"></i>
+        </div>
+      </div>
+      <div class="menu-right menu-item">Mail</div>
+      <div class="menu-center menu-item">My Food</div>
+    </div>
+    <!-- photo grid -->
+    <div class="photo-grid-container">
+      <div class="photo-card">
+        <img class="card-img" src="./photos/sandwich.jpg" alt="" />
+        <h3 class="card-heading">The Perfect Sandwich, A Real NYC Classic</h3>
+        <p class="card-text">
+          Just some random text, lorem ipsum text praesent tincidunt ipsum
+          lipsum.
+        </p>
+      </div>
+      <div class="photo-card">
+        <img class="card-img" src="./photos/steak.jpg" alt="" />
+        <h3 class="card-heading">Let Me Tell You About This Steak</h3>
+        <p class="card-text">
+          Just some random text, lorem ipsum text praesent tincidunt ipsum
+          lipsum.
+        </p>
+      </div>
+      <div class="photo-card">
+        <img class="card-img" src="./photos/cherries.jpg" alt="" />
+        <h3 class="card-heading">Cherries, interrupted</h3>
+        <p class="card-text">
+          Just some random text, lorem ipsum text praesent tincidunt ipsum
+          lipsum.
+        </p>
+      </div>
+      <div class="photo-card">
+        <img class="card-img" src="./photos/wine.jpg" alt="" />
+        <h3 class="card-heading">
+          Once Again, Robust Wine and Vegetable Pasta
+        </h3>
+        <p class="card-text">
+          Just some random text, lorem ipsum text praesent tincidunt ipsum
+          lipsum.
+        </p>
+      </div>
+      <div class="photo-card">
+        <img class="card-img" src="./photos/popsicle.jpg" alt="" />
+        <h3 class="card-heading">All I Need Is a Popsicle</h3>
+        <p class="card-text">
+          Just some random text, lorem ipsum text praesent tincidunt ipsum
+          lipsum.
+        </p>
+      </div>
+      <div class="photo-card">
+        <img class="card-img" src="./photos/salmon.jpg" alt="" />
+        <h3 class="card-heading">Salmon For Your Skin</h3>
+        <p class="card-text">
+          Just some random text, lorem ipsum text praesent tincidunt ipsum
+          lipsum.
+        </p>
+      </div>
+      <div class="photo-card">
+        <img class="card-img" src="./photos/sandwich.jpg" alt="" />
+        <h3 class="card-heading">The Perfect Sandwich, A Real NYC Classic</h3>
+        <p class="card-text">
+          Just some random text, lorem ipsum text praesent tincidunt ipsum
+          lipsum.
+        </p>
+      </div>
+      <div class="photo-card">
+        <img class="card-img" src="./photos/croissant.jpg" alt="" />
+        <h3 class="card-heading">Le French</h3>
+        <p class="card-text">
+          Just some random text, lorem ipsum text praesent tincidunt ipsum
+          lipsum.
+        </p>
+      </div>
+    </div>
+    <!-- end of photo grid -->
+    <!-- pagination -->
+    <div class="pagination">
+      <a href="#">«</a>
+      <a href="#">1</a>
+      <a href="#">2</a>
+      <a href="#">3</a>
+      <a href="#">4</a>
+      <a href="#">»</a>
+    </div>
+    <!-- about -->
+    <div class="about-section">
+      <h2 class="about-heading">About Me, The Food Man</h2>
+      <div class="about-img-container">
+        <img class="about-img" src="./photos/chef.jpg" alt="" />
+      </div>
+      <div class="about-text">
+        <h2>I am Who I Am</h2>
+        <h4>With Passion For Real, Good Food</h4>
+        <p>
+          Just me, myself and I, exploring the universe of unknownment. I have a
+          heart of love and an interest of lorem ipsum and mauris neque quam
+          blog. I want to share my world with you. Praesent tincidunt sed tellus
+          ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies
+          congue gravida diam non fringilla. Praesent tincidunt sed tellus ut
+          rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies
+          congue gravida diam non fringilla.
+        </p>
+      </div>
+    </div>
+    <!-- end of about -->
+    <!-- footer -->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-left">
+          <h1>Footer</h1>
+          <p>
+            Praesent tincidunt sed tellus ut rutrum. Sed vitae justo
+            condimentum, porta lectus vitae, ultricies congue gravida diam non
+            fringilla.
+          </p>
+        </div>
+        <div class="footer-center">
+          <h1>Blog Posts</h1>
+          <ul>
+            <li>
+              <img class="blog-img" src="./photos/blog1.jpg" alt="" />
+              <span>Lorem</span>
+            </li>
+            <li>
+              <img class="blog-img" src="./photos/blog2.jpg" alt="" />
+              <span>Lorem</span>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-right">
+          <h1>Popular Tags</h1>
+          <p>
+            <span>Travel</span>
+            <span>New York</span>
+            <span>Dinner</span>
+            <span>Salmon</span>
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- end of footer -->
+    <script src="./app.js"></script>
+  </body>
 </html>
