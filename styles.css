@@ -23,6 +23,11 @@ Side bar
   position: fixed;
   box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
 }
+@media (max-width: 600px) {
+  .sidebar {
+    width: 100%;
+  }
+}
 .hide-sidebar {
   display: none;
 }
